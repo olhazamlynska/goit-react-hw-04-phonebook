@@ -5,6 +5,7 @@ import {
   Input,
   Wrapper,
 } from 'components/FilterContacts/FilterContacts.styled';
+
 export const FilterContacts = ({ value, onChange }) => {
   const filterId = nanoid();
 
